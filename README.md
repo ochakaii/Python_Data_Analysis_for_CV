@@ -82,7 +82,7 @@ plt.show()
 
 ### Results
 
-![Salary Distributions in the US](../salarydist.png)
+![Salary Distributions in the US](DataAnalyticsCV/salarydist.png)
 
 ### Explanation
 I am not a fan of boxplots personally, but this graph actually provides valuable info so I did it anyway. It shows that the biggest salary are for senior roles, which is to be expected, however some outliers especially in the data scientist area are fascinating, because their yearly salry is bigger than the salary that the senior positions get. So if you become a data scientist and get really lucky its really worth it! Combining with info from the previous graph, it seems that knowing R, python and sql all together might be really really worth it.
@@ -91,7 +91,7 @@ I am not a fan of boxplots personally, but this graph actually provides valuable
 3rd question Notebook link for detailed code: [Geographic location of data engineering jobs](3_num_of_jobs_geo.ipynb)
 ### Results
 
-![alt text](../DataEngineerGeo.png)
+![alt text](DataAnalyticsCV/DataEngineerGeo.png)
 
 
 ### Explanation
@@ -129,7 +129,7 @@ fig.tight_layout()
 ```
 
 ### Results
-![alt text](../DE_paid_demand.png)
+![alt text](DataAnalyticsCV/DE_paid_demand.png)
 
 ### Explanation
 This combined barplot is a bit of a weird one. IT shows that the highest paid skills for Data engineers are mongo and vue followed by solidity. Since when are data engineers also in charge of front end UI? I have no cllue but thats what vue is for. Mongo is a nosql database and maybe learning how to operate a more nieche database like that can be very valuable as we can see from this graph. Solidity is used for blockchain technologies and looks very new, so it might be a worthwhile investment.
@@ -159,7 +159,7 @@ DE_highdemand_skills = df_DE_US_grouped[df_DE_US_grouped['skill_percent']>skill_
 
 ### Results
 
-![alt text](../DEoptimalskills.png)
+![alt text](DataAnalyticsCV/DEoptimalskills.png)
 
 ### Explanation
 The 5th plot is an optimal skills scatterplot and this one gave me a lot of trouble with the formatting and I couldn't even fix it in the end. Previously, airflow scala and nosql overlapped, but when I fixed that, databricks and git decided to overlap and no matter what solutions I tried (yes, I asked chatGPT), nothing good came up that didn't require adding every single name manually and I didnt want to add that.
@@ -198,7 +198,7 @@ plt.show()
 
 ### Results
 
-![alt text](../DEskillsmonth.png)
+![alt text](DataAnalyticsCV/DEskillsmonth.png)
 
 ### Explanation
 
