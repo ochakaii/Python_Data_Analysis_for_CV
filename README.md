@@ -56,7 +56,7 @@ plt.show()
 ```
 
 ### Results
-![Percentage of Most Relevant Job Skills for Job Postings in the US](relevantjobskillstop3roles.png)
+![Percentage of Most Relevant Job Skills for Job Postings in the US](DataAnalyticsCV/relevantjobskillstop3roles.png)
 
 ### Explanation
 As we can see from the graph, the highest requested programs that you need to know for all data-related job fields are SQL and python (except data analyst, they don't need python that much). It seems that tableau and excel are more important for analysts because they either might be working with smaller datasets or just need good visualization options (hence, tableau). Data scientists are more valued for their knowledge of R, sql and python, thats probably because they have to extract valuable insights from big datasets. Lastly, if you want to become a data engineer - you need to learn cloud platforms like azure or aws.
